@@ -1,0 +1,35 @@
+header {
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #333;
+    background:  rgb(153, 152, 152)  !important;
+    width: 100%;
+}
+
+.hemi-image {
+    /* height: 200px; */
+    height: auto;
+    max-width: 45%;
+    float: left;
+    padding: 20px;
+    position: relative;
+    margin: auto;
+}
+
+.thumbnail {
+    display: inline-block;
+    margin: 20px;
+ }
+
+ .right {
+     float: right;
+ }
+
+ .last-panel {
+     margin: auto;
+ }
+
+ .featured {
+    height: auto;
+    max-width: 800px;
+ }
