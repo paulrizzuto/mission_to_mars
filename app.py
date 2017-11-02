@@ -16,7 +16,7 @@ from flask import Flask, jsonify, render_template, request
 
 import scrapemars
 
-conn = "mongodb://localhost:27017"
+conn = "mongodb://admin:password@ds143245.mlab.com:43245/heroku_2xxf76ft"
 client = pymongo.MongoClient(conn)
 
 db = client.mars_scrape_db
