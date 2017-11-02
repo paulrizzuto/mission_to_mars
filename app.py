@@ -23,7 +23,7 @@ db = client.mars_scrape_db
 
 app = Flask(__name__)
 
-@app.route("/", methods=["GET"])
+@app.route("/")
 #change to route that passes data to html
 def welcome():
     #queries
